@@ -1,0 +1,62 @@
+body {
+    background-color: #FF0266;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    margin-top: 100px;
+}
+table tr {
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-gap: 23px;
+    grid-row-gap: 23px;
+    -webkit-column-gap: 23px;
+    column-gap: 23px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    row-gap: 23px;
+    
+}
+table tr:nth-child(2) {
+    margin-top: 23px;
+    margin-bottom: 23px;
+  }
+table td {
+    align-items: center;
+    border: 5.57px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    width: 90px;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+td:active {
+    background-color: rgb(223, 22, 22);
+}
+.winner {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+button {
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+.secret{
+    color: #FF0266;
+}
